@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  /* -ms-overflow-style: none; */
+  scrollbar-width: none;
+  /* color: red; */
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url('./assets/ui/main-background-image.jpg');
+}
+
+.navbar {
+  width: 98.9vw;
+  height: 88px;
+  background: rgb(175, 212, 255);
+}
+
+.logo {
+  position: absolute;
+  width: 52px;
+  height: 53px;
+  left: 94px;
+  top: 18px;
+}
+
+/* 
+ */
+
+.logo-img {
+  width: 50px;
+  height: 50px;
+}
+
+.logo-name {
+  position: absolute;
+  width: 124px;
+  height: 42px;
+  left: 156px;
+  top: 20px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+
+  color: #4295f5;
+}
+
+.time {
+  margin-left: 55vw;
+  margin-top: 3vh;
+  transform: translateY(10px);
+}
+
+.available-time {
+  margin-left: 58vw;
+  font-family: Poppins;
+  font-size: 1.3rem;
+  /* background-color: yellow; */
+  width: fit-content;
+  transform: translateY(-15px);
+  color: #000000;
+}
+
+.time-blue-text {
+  color: rgb(66, 149, 245);
+  margin-left: 5 px;
+}
+
+.contact-number-rectangle {
+  width: 261px;
+  height: 44px;
+  margin-left: 72vw;
+  transform: translateY(-50px);
+  background: #560af7;
+  box-shadow: 0px 0px 8px 1px #4295f5;
+  border-radius: 15px;
+}
+
+.phone-icon {
+  color: #ffffff;
+  margin-left: 30px;
+}
+
+.no-text {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+  margin-left: 30px;
+  margin-top: 10px;
+  /* background-color: yellow; */
+}
+
+.main-content {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url('./assets/ui/main-background-image.jpg');
+  /* background-repeat: repeat; */
+}
+
+.header {
+  font-size: 5rem;
+  font-weight: bolder;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+}
+
+.appointment-header {
+  color: #5aa2f6;
+  /* margin-top: 100px; */
+}
+
+.appointment-form-card {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+  /* border: 2px solid black; */
+  box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, 0.2);
+  width: 60vw;
+  /* margin-top: 5vh; */
+  margin-bottom: 10vh;
+  padding: 5vh;
+  background-color: #ffffff;
+}
+
+.card-header {
+  /* background-color: yellow; */
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1vh;
+  margin-bottom: 5vh;
+  font-size: 2rem;
+  color: #8047f8;
+}
+
+.grid-container-2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  /* background-color: yellow; */
+  width: 45vw;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-bottom: 3vh; */
+  padding-left: 0;
+}
+
+.grid-item {
+  /* width: fit-content; */
+  width: 13.5vw;
+  /* padding: 1vh 1vw; */
+  /* background-color: brown; */
+}
+
+.first-grid-item {
+  /* padding-left: 20px; */
+  /* transform: translateX(-3.5vw); */
+  margin-left: 0px;
+}
+
+.second-grid-item {
+  transform: translateX(9vw);
+}
+
+.text-input-field {
+  font-size: 1.2rem;
+  background-color: inherit;
+  border: none;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  margin-left: 0.5vw;
+  /* border: 1px solid black; */
+  width: 10vw;
+  /* background-color: green; */
+}
+
+.input-container {
+  /* border: 1px double black; */
+  border-bottom: 1px solid black;
+  margin-bottom: 5vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+#email-input-container {
+  width: 45vw;
+  /* background-color: yellow; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.select-field {
+  width: 10vw;
+}
+
+.submit-button-container {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.submit-button {
+  background-color: #560af6;
+  height: 7vh;
+  color: #ffffff;
+  font-size: 1.2rem;
+  padding: 1vh 2vw;
+  border: none;
+  border-radius: 15px;
+  /* box-shadow: -3px 3px 3px rgba(0, 0, 0, 0.5); */
+  box-shadow: 0px 0px 5px 1px #560af6;
+}
+
+.main-content {
+  /* border: 1px solid red; */
+}
